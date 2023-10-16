@@ -1,9 +1,9 @@
-const cacheName = "AlbaSoft-MyCVRunner-1.0.2";
+const cacheName = "DefaultCompany-TouchAndKill-0.1";
 const contentToCache = [
-    "Build/DDFF.loader.js",
-    "Build/DDFF.framework.js.unityweb",
-    "Build/DDFF.data.unityweb",
-    "Build/DDFF.wasm.unityweb",
+    "Build/Nueva carpeta (2).loader.js",
+    "Build/Nueva carpeta (2).framework.js",
+    "Build/Nueva carpeta (2).data",
+    "Build/Nueva carpeta (2).wasm",
     "TemplateData/style.css"
 
 ];
