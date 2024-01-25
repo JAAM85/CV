@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | HUNTDUCK-CV</title>
+    <title>Unity WebGL Player | MyCV</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/DHUNT.loader.js";
+      var loaderUrl = buildUrl + "/Release.loader.js";
       var config = {
-        dataUrl: buildUrl + "/DHUNT.data.unityweb",
-        frameworkUrl: buildUrl + "/DHUNT.framework.js.unityweb",
-        codeUrl: buildUrl + "/DHUNT.wasm.unityweb",
+        dataUrl: buildUrl + "/Release.data.gz",
+        frameworkUrl: buildUrl + "/Release.framework.js.gz",
+        codeUrl: buildUrl + "/Release.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "HUNTDUCK-CV",
+        companyName: "AlbaSoftware",
+        productName: "MyCV",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
