@@ -1,9 +1,9 @@
 const cacheName = "AlbaSoftware-MyCV-0.1";
 const contentToCache = [
     "Build/Release.loader.js",
-    "Build/Release.framework.js",
-    "Build/Release.data",
-    "Build/Release.wasm",
+    "Build/Release.framework.js.unityweb",
+    "Build/Release.data.unityweb",
+    "Build/Release.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
